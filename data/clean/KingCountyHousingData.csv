@@ -1,4 +1,4 @@
-,Major,Minor,ZipCode,DocumentDate,SalePrice,SqFtLot,SqFtTotLiving,Nuisances,Has_Nuisance,TrafficNoise,PowerLines,OtherNuisances,Is_WaterFrontLocation,WaterFrontLocation,Has_Porch,Has_OpenPorch,Has_EnclosedPorch,NbrLivingUnits,MtRainier,Olympics,Cascades,PugetSound,LakeWashington,LakeSammamish,SmallLakeRiverCreek
+,Major,Minor,ZipCode,DocumentDate,SalePrice,SqFtLot,SqFtTotLiving,Nuisances,Has_Nuisance,TrafficNoise,PowerLines,OtherNuisances,Is_WaterFrontLocation,WaterFrontLocation,Has_Porch,Has_OpenPorch,Has_EnclosedPorch,NbrLivingUnits,View_MtRainier,View_Olympics,View_Cascades,View_PugetSound,View_LakeWashington,View_LakeSammamish,View_SmallLakeRiverCreek
 0,100,67,98002,2019-04-01,310800,17400,2240,No Nuisances,0,0,0,0,0,None,1,1,0,1,0,0,0,0,0,0,0
 1,100,66,98002,2019-10-22,339000,14500,1200,No Nuisances,0,0,0,0,0,None,1,1,0,1,0,0,0,0,0,0,0
 2,100,42,98002,2019-10-29,485500,6002,2134,No Nuisances,0,0,0,0,0,None,1,1,0,1,0,0,0,0,0,0,0
