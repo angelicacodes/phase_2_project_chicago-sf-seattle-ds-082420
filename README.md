@@ -63,13 +63,18 @@ There is also a table called "Lookup" that explains the meaning of many of the a
 Through Pandas, we performed necessary data cleaning, including merging of tables, and pulled in all relevant data for analysis in a linear regression model. We included columns from the data sets that we thougt would have a correlation with Sale Price. We filtered, remapped, and cleaned the data to feed into our model. We considered many features as well as scaling or one-hot encoding required to feed the data into a linear regression model.
 
 
-### 2. Data Exploration
+### Data Exploration
 
 We have generated visualizations of the data during this phase to get a good sense of the data including different features and how they affected the price of homes. First we calculated the correlation values of each feature to sale price and focused on exploring features with high correlation to price. For these visualizations, we used matplotlip, geopandas, and seaborn.
 
-<img src="reports/figures/Sales_Dist.png.png">
+img.resize {
+  max-width:50%;
+  max-height:50%;
+}
 
-<img src="reports/figures/Building_Grade.png.png">
+<img class = "resize" src="reports/figures/Sales_Dist.png">
+
+<img src="reports/figures/Building_Grade.png">
 
 <img src="reports/figures/sqftvsPrice.png">
 
@@ -89,7 +94,9 @@ We have generated visualizations of the data during this phase to get a good sen
 
 
 
-### 4. Modeling
+### Modeling
+
+NOTE to Angelica from Sindhu: The following was just included in the original readme, i didnt write any of that but it provided a dece framework as a placeholder to make it easier for you to fill in
 
 The modeling phase in this project should be a brief stop-over as you are jumping back and forth between the data preparation and the evaluation phases.  If the data preparation was done correctly, it only takes a few lines of code to build a linear regression model.  Then you should be able to print out your model's metrics and quickly move to the evaluation phase.
 
@@ -106,9 +113,10 @@ The modeling phase in this project should be a brief stop-over as you are jumpin
  - Communicate your findings
 
 
+### Conclusion
+ 
 
-
-### 6. Deployment
+### Deployment
 
 When you are approaching the end of the available time, choose your best model and report what it says about your research questions. An example finding you might report is: "There is a statistically significant relationship between `<x variable>` and housing price. For every increase of 1 `<x variable>`, the housing price increases by `<amount>`, all else being equal". Consider what types of visualizations would help to communicate the scale and direction of these findings.
 
@@ -123,6 +131,7 @@ Beyond just the numbers, tie these findings into a broader narrative that incorp
  - "How would you interpret the results?"
  - "How confident are you in the predictive quality of the results?"
  - "What are some of the things that could cause the results to be wrong?"
+ 
 
 ## Citations
 
