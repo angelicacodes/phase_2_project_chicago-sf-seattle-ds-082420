@@ -10,25 +10,25 @@ Our home repository contains the project environment and information about our p
 
 #### notebooks folder:
 
-    -report folder which houses an organized polished file containing the entire project
-    -exploratory folder, which houses an exploration of the data we each individually took part in, which constituted our workflow.
+-report folder which houses an organized polished file containing the entire project
+-exploratory folder, which houses an exploration of the data we each individually took part in, which constituted our workflow.
     
-    The notebook folder also contains readme files to further explain the contents.
+The notebook folder also contains readme files to further explain the contents.
 
 #### data folder
 
-    contains all the data we needed to import for the project.
-    Note: As many of these files are too large to include in the repo, you can download the data using the instructions we have provided in our final notebook
+contains all the data we needed to import for the project.
+Note: As many of these files are too large to include in the repo, you can download the data using the instructions we have provided in our final notebook
 
 #### reports folder
 
-    contains the pdf presentation of our project. 
-    -figures folder in which we outputted all of our images.
+contains the pdf presentation of our project. 
+-figures folder in which we outputted all of our images.
     
 
 #### references folder 
 
-    contains any sources we used to aid our project.
+contains any sources we used to aid our project.
 
 
 ## BACKGROUND
