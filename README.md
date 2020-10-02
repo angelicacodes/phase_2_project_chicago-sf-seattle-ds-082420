@@ -17,8 +17,9 @@ The notebook folder also contains readme files to further explain the contents.
 
 #### data folder
 
-contains all the data we needed to import for the project.
+-raw folder contains all the data we needed to import for the project.
 Note: As many of these files are too large to include in the repo, you can download the data using the instructions we have provided in our final notebook
+-clean folder contains a csv of our cleaned dataset
 
 #### reports folder
 
