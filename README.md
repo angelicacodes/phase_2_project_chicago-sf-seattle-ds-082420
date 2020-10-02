@@ -11,6 +11,7 @@ Our home repository contains the project environment and information about our p
 #### notebooks:
 
 -report folder which houses an organized polished file containing the entire project
+
 -exploratory folder, which houses an exploration of the data we each individually took part in, which constituted our workflow.
     
 The notebook folder also contains readme files to further explain the contents.
@@ -18,12 +19,15 @@ The notebook folder also contains readme files to further explain the contents.
 #### data
 
 -raw folder contains all the data we needed to import for the project.
+
 Note: As many of these files are too large to include in the repo, you can download the data using the instructions we have provided in our final notebook
+
 -clean folder contains a csv of our cleaned dataset
 
 #### reports
 
 contains the pdf presentation of our project. 
+
 -figures folder in which we outputted all of our images.
     
 
@@ -83,9 +87,13 @@ We have generated visualizations of the data during this phase to get a good sen
 
 
 Sale Price Range we are including in the data:
+
 Min:  $10,000 
+
 Max:  $10,050,000 
+
 Average:  $810,713
+
 
 As we can see below, most of the houses fall under $2 million. We chose to include a high range of Sales Prices even though it heavily right skewed the distribution because we wanted to know what features of a house were included in very expensive houses.
 
