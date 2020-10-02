@@ -8,26 +8,26 @@ For this project, our goal is to build a model that provides inferential insight
 
 Our home repository contains the project environment and information about our project.
 
-#### notebooks folder:
+#### notebooks:
 
 -report folder which houses an organized polished file containing the entire project
 -exploratory folder, which houses an exploration of the data we each individually took part in, which constituted our workflow.
     
 The notebook folder also contains readme files to further explain the contents.
 
-#### data folder
+#### data
 
 -raw folder contains all the data we needed to import for the project.
 Note: As many of these files are too large to include in the repo, you can download the data using the instructions we have provided in our final notebook
 -clean folder contains a csv of our cleaned dataset
 
-#### reports folder
+#### reports
 
 contains the pdf presentation of our project. 
 -figures folder in which we outputted all of our images.
     
 
-#### references folder 
+#### references 
 
 contains any sources we used to aid our project.
 
@@ -41,7 +41,7 @@ The factors that influence housing prices interest many people, from homeowners 
 
 Stakeholders in King County, WA have requested statistical analysis to validate several claims about housing prices in the most recent full calendar year, 2019.
 
-Six of the claims can be addressed directly with the three datasets (from the King County Department of Assessments) described later in this document:
+These claims can be addressed directly with the three datasets (from the King County Department of Assessments) described later in this document:
 
 1. Higher square footage increases home sale price
 2. Having a porch increases home sale price
