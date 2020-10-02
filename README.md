@@ -69,23 +69,23 @@ We have generated visualizations of the data during this phase to get a good sen
 
 <img src="reports/figures/Sales_Dist.png" width="400" height="300" >
 
-<img src="reports/figures/Building_Grade.png" width="400" height="300" >
+<img src="reports/figures/Building_Grade.png" width="500" height="300" >
 
-<img src="reports/figures/sqftvsPrice.png" width="400" height="300" >
+<img src="reports/figures/sqftvsPrice.png" width="500" height="300" >
 
-<img src="reports/figures/Is_WaterFront_Loc.png" width="400" height="300" >
+<img src="reports/figures/Is_WaterFront_Loc.png" width="450" height="300" >
 
-<img src="reports/figures/WaterFront_Loc.png" width="400" height="300" >
+<img src="reports/figures/WaterFront_Loc.png" width="420" height="320" >
 
-<img src="reports/figures/Has_Open_Porch.png" width="400" height="300" >
+<img src="reports/figures/Has_Open_Porch.png" width="420" height="300" >
 
-<img src="reports/figures/Has_Finished_Basement.png" width="400" height="300" >
+<img src="reports/figures/Has_Finished_Basement.png" width="420" height="300" >
 
-<img src="reports/figures/Has_Deck.png" width="400" height="300" >
+<img src="reports/figures/Has_Deck.png" width="420" height="300" >
 
-<img src="reports/figures/Nuisances.png" width="400" height="300" >
+<img src="reports/figures/Nuisances.png" width="420" height="300" >
 
-<img src="reports/figures/Power_Lines.png" width="400" height="300" >
+<img src="reports/figures/Power_Lines.png" width="400" height="320" >
 
 
 
