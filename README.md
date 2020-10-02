@@ -67,25 +67,25 @@ Through Pandas, we performed necessary data cleaning, including merging of table
 
 We have generated visualizations of the data during this phase to get a good sense of the data including different features and how they affected the price of homes. First we calculated the correlation values of each feature to sale price and focused on exploring features with high correlation to price. For these visualizations, we used matplotlip, geopandas, and seaborn.
 
-<img src="reports/figures/Sales_Dist.png" width="100" height="40" >
+<img src="reports/figures/Sales_Dist.png" width="600" height="400" >
 
-<img src="reports/figures/Building_Grade.png" width="100" height="40" >
+<img src="reports/figures/Building_Grade.png" width="600" height="400" >
 
-<img src="reports/figures/sqftvsPrice.png" width="100" height="40" >
+<img src="reports/figures/sqftvsPrice.png" width="600" height="400" >
 
-<img src="reports/figures/Is_WaterFront_Loc.png" width="100" height="40" >
+<img src="reports/figures/Is_WaterFront_Loc.png" width="600" height="400" >
 
-<img src="reports/figures/WaterFront_Loc.png" width="100" height="40" >
+<img src="reports/figures/WaterFront_Loc.png" width="600" height="400" >
 
-<img src="reports/figures/Has_Open_Porch.png" width="100" height="40" >
+<img src="reports/figures/Has_Open_Porch.png" width="600" height="400" >
 
-<img src="reports/figures/Has_Finished_Basement.png" width="100" height="40" >
+<img src="reports/figures/Has_Finished_Basement.png" width="600" height="400" >
 
-<img src="reports/figures/Has_Deck.png" width="100" height="40" >
+<img src="reports/figures/Has_Deck.png" width="600" height="400" >
 
-<img src="reports/figures/Nuisances.png" width="100" height="40" >
+<img src="reports/figures/Nuisances.png" width="600" height="400" >
 
-<img src="reports/figures/Power_Lines.png" width="100" height="40" >
+<img src="reports/figures/Power_Lines.png" width="600" height="400" >
 
 
 
