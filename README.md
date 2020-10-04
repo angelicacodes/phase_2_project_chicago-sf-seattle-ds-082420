@@ -47,10 +47,10 @@ Stakeholders in King County, WA have requested statistical analysis to validate 
 
 These claims can be addressed directly with the three datasets (from the King County Department of Assessments) described later in this document:
 
-1. Higher square footage increases home sale price
-2. Having a porch increases home sale price
-3. Having a beachfront or lakefront increases home sale price
-4. The presence of a nuisance (power lines, traffic noise, airport noise) decreases home sale price
+1. Higher square footage increases home sale price<sup>1, 2</sup>
+2. Having a porch increases home sale price<sup>3, 4</sup>
+3. Having a beachfront or lakefront increases home sale price<sup>5</sup>
+4. The presence of a nuisance (power lines, traffic noise, airport noise) decreases home sale price<sup>1, 5</sup>
 
 We will build a linear regression model to represent sales prices in King County, and use it to address these claims as well find other features that have a correlation with  home sale price.
 
@@ -151,18 +151,11 @@ The modeling phase in this project should be a brief stop-over as you are jumpin
 
 
 ### Conclusion
-Our R-Squared is .47, meaning that our model was able to explain 47% of the variance in home sale prices. With in that, these features were statistically significant, holding the claims set out address at the begining are true. 
 
-Our inferential model showed that:
-Having a porch increases mean home price by about $74,290
-Having a lakefront property, such as at Lake Washington, increases mean home price by 1.2 million 
-The presence of power lines, decreases mean home price by about $66, 550
-
-So some things to keep in mind as you continue to flip homes— adding a porch and adding a finished basement can increase the overall value of a home.
 
 The following graph shows us how our model 3 is doing at predicting home sale prices. 
 
-<img src="reports/figures/Residuals.png" width="450" height="300" >
+<img src="reports/figures/Residuals.png" width="450" height="300">
 
 As can be seen, our current model is under-predicting home sale prices for the first part of the price range and is over-predicting in the range between ~2.5 and 3.5 million. To correct for this under and over prediction in our model, we will want to go in to those sections and evaluate to see if there are other factors that will better help predict those ranges. 
 
@@ -171,21 +164,22 @@ More analysis and additional data is required to better understand these and tes
 
 ### Deployment
 
-When you are approaching the end of the available time, choose your best model and report what it says about your research questions. An example finding you might report is: "There is a statistically significant relationship between `<x variable>` and housing price. For every increase of 1 `<x variable>`, the housing price increases by `<amount>`, all else being equal". Consider what types of visualizations would help to communicate the scale and direction of these findings.
+Our R-Squared is .47, meaning that our model was able to explain 47% of the variance in home sale prices. With in that, these features were statistically significant, holding the claims set out address at the begining are true. 
 
-Beyond just the numbers, tie these findings into a broader narrative that incorporates your business understanding.  Complete the deliverables listed above, and make sure you can answer the following questions about your process:
+Our inferential model showed that:
+Having a porch increases mean home price by about $74,290
+Having a lakefront property, such as at Lake Washington, increases mean home price by 1.2 million 
+The presence of power lines, decreases mean home price by about $66,550
 
- - "How did you pick the question(s) that you did?"
- - "Why are these questions important from a business perspective?"
- - "How did you decide on the data cleaning options you performed?"
- - "Why did you choose a given method or library?"
- - "Why did you select those visualizations and what did you learn from each of them?"
- - "Why did you pick those features as predictors?"
- - "How would you interpret the results?"
- - "How confident are you in the predictive quality of the results?"
- - "What are some of the things that could cause the results to be wrong?"
+So some things to keep in mind as you continue to flip homes— adding a porch and adding a finished basement can increase the overall value of a home.
+
  
 
 ## Citations
 
 
+1. Gomez, J. 2019. "8 critical factors that influence a home’s value". OpenDoor. Available at: https://www.opendoor.com/w/blog/factors-that-influence-home-value
+2. Buczynski, B. 2019. "5 Proven Ways to Increase Home Value". NerdWallet. Available at: https://www.nerdwallet.com/blog/mortgages/how-to-increase-home-value/
+3. Taylor, A.B. 2019. "11 Features That Will Sell Your Home Faster". Kiplinger. Available at: https://www.kiplinger.com/slideshow/real-estate/T010-S001-home-features-today-s-buyers-want-most/index.html
+4. Crow, S. 2019. "50 Clever Ways to Instantly Add Value to Your Home". BestLife. Available at: https://bestlifeonline.com/home-value-upgrades/
+5. Unknown author. 2018. "5 Features That Make A Property Valuable". House Flipping School. Available at: https://houseflippingschool.com/5-features-valuable/
