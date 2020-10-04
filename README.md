@@ -135,25 +135,39 @@ Aha! While noise and other nuisances dont really affect the sales prices, the pr
 
 ### Modeling
 
-NOTE to Angelica from Sindhu: The following was just included in the original readme, i didnt write any of that but it provided a dece framework as a placeholder to make it easier for you to fill in
+With the helpf of the exploratory data analysis (EDA), we began building models to test these selected features. We began by breaking out some of the features into their own columns to better understand the signficance of that type of feature--we did this with "building grade" and homes that are "on the waterfront". We merged these into the main data frame.
+
+Now that we had all of the initial significant factors based on the EDA we wanted to see all of these factors' correlation to "Sales Price".
+
+Given that this list of features has already been paired down based on initial analysis during the EDA phase, we wanted to include all of the features into the first baseline model. This returned features that were not statistically significant, and there was high multicollinearirty among the features.  To rectify this, the first modification we took was in model 2 by taking out the features that were not statistically significant based on p-values over .05.
+
+The second model kept the same r-quared score, maintained linearity, improved statistical significance, some improvement in multicollinearity, and did not improve in that the distribution is not normal and the variance of residuals is not spread evenly. converned about multicollinearity, we removed 'Is Water Front Location' and 'Building Grade' because we broke these out into dummie columns and wanted to use that more detailed view. Using both sets of groupped and dummies adds to the mullti-collinearity. 
+
+From the EDA, we knew that 'Total Square Foot Living' had a significant impact on Sale Price. We wanted to see how this feature realated to the other ones, so we made a correlation matrix. This showed the correlation to other features such as homes with building grades of very high, excellent, Mansion, and with additional features such as garage, porch.  This makes sense because many of the homes with high sales price have these features and these tend to have high square footage. Given the high multicollinearity, we removed this total square foot living from the model. Also from the EDA, we knew that 'Power Lines' did have an impact on sales price and is one of the claims we set out address, so we put it back in to see if given the new improved model, it would be statistically significant and found that it was.
+
+Our model 3 was able to rectify the multicollinearity, though the r-quared lowered a bit from .505 to .470. Linearity was maintained. We were not able to further improve on the normality or distribution of errors. We address this in the conclusion below. 
 
 The modeling phase in this project should be a brief stop-over as you are jumping back and forth between the data preparation and the evaluation phases.  If the data preparation was done correctly, it only takes a few lines of code to build a linear regression model.  Then you should be able to print out your model's metrics and quickly move to the evaluation phase.
 
-(In future modules, there will be more complex steps involved with tuning the model itself.)
-
-
- - Build a linear regression model with a target variable of home sale price, which is statistically valid such that any interpretation of coefficients are valid
-    - Do your best to have features meet the assumptions of a linear regression (no multicollinearity, linear with respect to the outcome variable, errors are normally distributed, etc.). 
-      - Note: This is difficult! We will be looking most of all for _improvement_ on this score. In order to demonstrate improvement, you should create a (not very good) model that will serve as a kind of _baseline_. Then you can compare future regression models that you build with that baseline.
-    - Try to maximize R<sup>2</sup> _without breaking any assumptions_
- - Address at least 3 of the 9 claims about housing prices made by subject-matter experts
-    - Report the effect size as well as the statistical significance
-    - It is perfectly acceptable to report a non-finding here
- - Communicate your findings
-
 
 ### Conclusion
- 
+Our R-Squared is .47, meaning that our model was able to explain 47% of the variance in home sale prices. With in that, these features were statistically significant, holding the claims set out address at the begining are true. 
+
+Our inferential model showed that:
+Having a porch increases mean home price by about $74,290
+Having a lakefront property, such as at Lake Washington, increases mean home price by 1.2 million 
+The presence of power lines, decreases mean home price by about $66, 550
+
+So some things to keep in mind as you continue to flip homes— adding a porch and adding a finished basement can increase the overall value of a home.
+
+The following graph shows us how our model 3 is doing at predicting home sale prices. 
+
+<img src="reports/figures/Residuals.png" width="450" height="300" >
+
+As can be seen, our current model is under-predicting home sale prices for the first part of the price range and is over-predicting in the range between ~2.5 and 3.5 million. To correct for this under and over prediction in our model, we will want to go in to those sections and evaluate to see if there are other factors that will better help predict those ranges. 
+
+More analysis and additional data is required to better understand these and test other possibly significant features. For example some of the additional data we would like to add is— distance to public transportation, quality of school district, and distance to grocery stores. Adding this and other data points will allow us to see if we can add any features that can improve our model. 
+
 
 ### Deployment
 
