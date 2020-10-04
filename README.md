@@ -8,7 +8,7 @@ For this project, our goal is to build a model that provides inferential insight
 
 Our home repository contains the project environment and information about our project.
 
-[Notebooks](notebooks) 
+### Notebook
 
 [Final Report Notebook](notebooks/final/final_notebook.ipynb)
 
@@ -19,7 +19,7 @@ Our home repository contains the project environment and information about our p
 -exploratory folder, which houses an exploration of the data we each individually took part in, which constituted our workflow.
     
 
-[Data](data)
+### Data
 
 [Raw Data](data/raw)
 
@@ -33,7 +33,7 @@ Note: As many of these files are too large to include in the repo, you can downl
 -clean folder contains a csv of our cleaned dataset
 
 
-[Reports](reports)
+### Report
 
 [Executive Summary](reports)
 
@@ -42,13 +42,16 @@ Note: As many of these files are too large to include in the repo, you can downl
 [Visualizations](reports/figures)
 
 -figures folder in which we outputted all of our images.
+
    
+### References
 
 [References](references)
 
 -contains any PDFs of references we used to aid our project.
 
 
+### SRC
 
 [SRC](src)
 
