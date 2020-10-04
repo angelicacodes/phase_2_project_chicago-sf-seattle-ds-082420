@@ -9,32 +9,43 @@ For this project, our goal is to build a model that provides inferential insight
 Our home repository contains the project environment and information about our project.
 
 #### notebooks:
-
 [Final Report Notebook](notebooks/final/final_notebook.ipynb)
- -report folder which houses an organized polished file containing the entire project
+
+-houses an organized polished file containing the entire project
+
+[Exploratory Data Analysis](notebooks/eda) 
 
 -exploratory folder, which houses an exploration of the data we each individually took part in, which constituted our workflow.
     
-The notebook folder also contains readme files to further explain the contents.
 
 #### data
 
--raw folder contains all the data we needed to import for the project.
+[Raw Data](data/raw)
+
+-contains all the data we needed to import for the project.
 
 Note: As many of these files are too large to include in the repo, you can download the data using the instructions we have provided in our final notebook
+
+
+[Cleaned Dataset](data/clean)
 
 -clean folder contains a csv of our cleaned dataset
 
 #### reports
 
-contains the pdf presentation of our project. 
+[Executive Summary](reports)
+
+-contains the pdf presentation of our project. 
+
+[Visualizations](reports/figures)
 
 -figures folder in which we outputted all of our images.
     
 
 #### references 
 
-contains any sources we used to aid our project.
+[References](references)
+contains any PDFs of references we used to aid our project.
 
 
 ## BACKGROUND
