@@ -45,8 +45,13 @@ Note: As many of these files are too large to include in the repo, you can downl
 #### references 
 
 [References](references)
-contains any PDFs of references we used to aid our project.
+-contains any PDFs of references we used to aid our project.
 
+#### src
+
+[SRC](src)
+
+-contains custom functions used
 
 ## BACKGROUND
 
