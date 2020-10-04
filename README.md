@@ -10,7 +10,8 @@ Our home repository contains the project environment and information about our p
 
 #### notebooks:
 
--report folder which houses an organized polished file containing the entire project
+[Final Report Notebook](notebooks/final/final_notebook.ipynb)
+ -report folder which houses an organized polished file containing the entire project
 
 -exploratory folder, which houses an exploration of the data we each individually took part in, which constituted our workflow.
     
