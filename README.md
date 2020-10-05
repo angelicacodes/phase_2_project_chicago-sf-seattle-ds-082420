@@ -68,10 +68,10 @@ Stakeholders in King County, WA have requested statistical analysis to validate 
 
 These claims can be addressed directly with the three datasets (from the King County Department of Assessments) described later in this document:
 
-1. Higher square footage increases home sale price<sup>1, 2</sup>
-2. Having a porch increases home sale price<sup>3, 4</sup>
-3. Having a beachfront or lakefront increases home sale price<sup>5</sup>
-4. The presence of a nuisance (power lines, traffic noise, airport noise) decreases home sale price<sup>1, 5</sup>
+1. Higher square footage increases home sale price?
+2. Having a porch increases home sale price?
+3. Having a beachfront or lakefront increases home sale price?
+4. The presence of a nuisance (power lines, traffic noise, airport noise) decreases home sale price?
 
 We will build a linear regression model to represent sales prices in King County, and use it to address these claims as well find other features that have a correlation with  home sale price.
 
@@ -124,25 +124,33 @@ The building grade (the quality of a house) has a high correlation with the sale
 
 <img src="reports/figures/Building_Grade.png" width="500" height="320" >
 
-While square feet also had quite a high correlation with sale price, we cannot include it in our model as it has too much correlation wtih another feature - building grade. The size of the house must be a factor in determining building quality.
+Below we adress claim one: Does higher square footage increase sales price? We can see that it does through this scatter plot and a best fit line.
+
+While square feet had quite a high correlation with sale price, however, we cannot include it in our predictive model as it has too much correlation wtih another feature - building grade. The size of the house must be a factor in determining building quality.
 
 <img src="reports/figures/sqftvsPrice.png" width="500" height="300" >
 
-We decided to one hot encode the Waterfront locations to delve deeper into the features
+Now we will adress claim three: Having a beachfront or lakefront increases home sale price? We can see that it clearly does. Waterfront properties are much more expensive on average.
+
+We decided to one hot encode the Waterfront locations to delve deeper into the features.
 
 <img src="reports/figures/Is_WaterFront_Loc.png" width="470" height="300" >
 
-In particular Lake Sammamish and Lake Washington were correlated with high sales prices 
+In particular Lake Sammamish and Lake Washington were correlated with high sales prices .
 
 <img src="reports/figures/WaterFront_Loc.png" width="420" height="330" >
 
-Some more visual explorations:
+Now adressing claim two: Having a porch increases home sale price? It does indeed. The average price of a house with a porch is greater than the average price of a house without a porch.
 
 <img src="reports/figures/Has_Open_Porch.png" width="450" height="300" >
+
+Some more visual explorations:
 
 <img src="reports/figures/Has_Finished_Basement.png" width="450" height="300" >
 
 <img src="reports/figures/Has_Deck.png" width="450" height="300" >
+
+Lastly we adress claim four: The presence of a nuisance (power lines, traffic noise, airport noise) decreases home sale price?
 
 Nuisances don't seem to have much of an effect on Price of House, but we broke down nuisances to further inspect.
 
