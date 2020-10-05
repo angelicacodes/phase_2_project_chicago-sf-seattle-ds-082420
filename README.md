@@ -200,7 +200,7 @@ Having a porch increases mean home price by about $74,290
 Having a lakefront property, such as at Lake Washington, increases mean home price by 1.2 million 
 The presence of power lines, decreases mean home price by about $66,550
 
-So some things to keep in mind as you continue to flip homes— adding a porch and adding a finished basement can increase the overall value of a home.
+So some things to keep in mind as you continue to flip homes— adding a porch and adding a finished basement can increase the overall value of a home. Here is an interactive [map](https://oklena.github.io/King_County_WA_map.html) you can use for now, it is based on this data set. You can look at the mean sale price of homes in 2019 by zip code. 
 
  
 
